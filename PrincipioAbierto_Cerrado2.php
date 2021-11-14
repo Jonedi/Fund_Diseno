@@ -1,6 +1,6 @@
 <?php
-class Coche{
-    public function PrecioMedioCoche();
+abstract class Coche {
+    abstract public function PrecioMedioCoche();
 };
 class Renault extends Coche{
     function PrecioMedioCoche(){
