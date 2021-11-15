@@ -1,16 +1,16 @@
 
 <?php
 class Coche {  
-    $marca;
+    public $marca;
 
-    function Coche(marca){ $this->marca = marca; }
+    public function __construct($marca){ $this->marca = marca; }
 
     function getMarcaCoche(){ return marca; }
 }
 
 class CocheDB{  
-    function guardarCocheDB(Coche ){ ... }
-    function eliminarCocheDB(Coche ){ ... }
+    public function guardarCocheDB(Coche){ ... }
+    public function eliminarCocheDB(Coche){ ... }
 } 
 
 
